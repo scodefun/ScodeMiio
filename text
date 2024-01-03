@@ -1,0 +1,54 @@
+miiocli dreamevacuum --ip  192.168.1.36 --token 493351624b54356e5654685345563947 set_voice https://github.com/Findus23/voice_pack_dreame/raw/main/voice_pack.tar.gz 8ebfabb9e23e169a5c9b867266f9d1ef 4325024 CP
+ Roborock S8 Pro Ultra (Device online ) ==
+        Model: roborock.vacuum.a70
+        Token: 493351624b54356e5654685345563947
+        IP: 192.168.1.36 (mac: B0:4A:39:4F:8E:EB)
+        DID: 535907819
+        Locale: sg
+        Other fields:
+                pd_id: 77435
+                password:
+                p2p_id:
+                uid: 6658705370
+                latitude: 0.0
+                family_id: 0
+                shareFlag: 0
+                pid: 0
+                longitude: 0.0
+                permitLevel: 16
+                adminFlag: 1
+                show_mode: 1
+                reset_flag: 0
+                extra: {'isSetPincode': 0, 'pincodeType': 0, 'fw_version': '4.3.5_1918', 'needVerifyCode': 0, 'isPasswordEncrypt': 0}
+(python-miio-py3.12) PS C:\Users\NguyenHuy\Desktop\micloud\python-miio>
+miiocli genericmiot --ip 192.168.1.36 --token 493351624b54356e5654685345563947 status
+
+746f4965386933324d7a5763466f4e41
+
+
+
+  S10 TV (Device online Shared by KimGS) ==
+        Model: dreame.vacuum.r2228
+        Token: 7579554b42774252735343654c677539
+        IP: 192.168.1.34 (mac: 70:C9:32:1E:DD:9B)
+        DID: 660989087
+        Locale: cn
+        Other fields:
+                p2p_id:
+                pd_id: 9412
+                family_id: 0
+                permitLevel: 4
+                show_mode: 1
+                password:
+                uid: 6235064792
+                extra: {'isSetPincode': 0, 'pincodeType': 0, 'fw_version': '4.3.3_1125', 'needVerifyCode': 0, 'isPasswordEncrypt': 0}
+                reset_flag: 0
+                latitude: 0.0
+                adminFlag: 0
+                longitude: 0.0
+                shareFlag: 1
+                pid: 0
+                owner: {'userid': 6235064792, 'nickname': 'KimGS', 'icon': 'https://cdn.alsgp0.fds.api.mi-img.com/user-avatar/MBim6iKq9-Ty7OJhfC1lAoDpPVU-30b32b3c.jpeg'}
+
+          miiocli dreamevacuum --ip  192.168.1.34  --token 7579554b42774252735343654c677539      set_voice https://github.com/Findus23/voice_pack_dreame/raw/main/voice_pack.tar.gz 8ebfabb9e23e169a5c9b867266f9d1ef 4325024
+          "{'did':'660989087','siid':24,'aiid':2,'in':[{'piid':3, 'value':'VI'},{'piid':4,'value':'https://awssgp0.fds.api.xiaomi.com/dreame-product/resources/934a776408f1391620c283de80596fbc'},{'piid':5,'value':'934a776408f1391620c283de80596fbc'},{'piid':6,'value':'2050200'}]}"
